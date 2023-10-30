@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+body {
+    background-color: rgb(200, 175, 128);
+}
+
+.card-white {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    border-radius: 18px;
+    padding: 10px;
+    height: 430px;
+    width: 285px;
+    background-color: rgb(245, 245, 235);
+    margin: auto;
+}
+
+.card-top-wrapper {
+    border: 3px solid #222;
+    border-radius: 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.card-header {
+    text-transform: uppercase;
+    font-weight: 800;
+    height: 50px;
+    border-bottom: 3px solid #222;
+}
+
+.card-number {
+    font-size: 49px;
+    line-height: 54px;
+    width: 30%;
+    height: 47px;
+    display: inline-block;
+    border-right: 3px solid #222;
+    text-align: center;
+    background-color: rgba(0, 128, 64, 0.3);
+    border-top-left-radius: 12px;
+}
+
+.card-name {
+    display: inline-block;
+}
+
+.card-name h3,
+.card-name h5 {
+    margin: 0 5px;
+}
+
+.card-name h3 {
+    font-size: 1.5rem;
+}
+
+.card-name h5 {
+    font-size: 1.2 rem;
+}
+
+.dino-image {
+
+    height: 211px;
+}
+
+.dino-image img {
+    max-width: calc(100% - 10px);
+    margin: 5px;
+    margin-bottom: 0;
+    border: 3px solid #222;
+    border-radius: 8px;
+
+}
+
+.dino-image-caption {
+    border-top: 3px solid #222;
+    height: 33px;
+}
+
+.dino-image-caption-infobox {
+    float: left;
+    width: 50px;
+    height: 33px;
+    margin-top: 0;
+    border-right: 3px solid #222;
+    color: white;
+    background-color: #004e32;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.dino-image-caption-content {
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+    background-color: rgb(245, 245, 220);
+    font-size: .85rem;
+}
+
+.stats-wrapper {
+    border: 3px solid #222;
+    border-radius: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3px;
+    background-color: #222;
+    height: 138px;
+}
+
+.stat-type,
+.stat-value {
+    background-color: rgb(245, 245, 220);
+    text-align: center;
+}
+
+.stat-type img {
+    max-height: 37px;
+    margin: 3px 0 -3px 0;
+}
+
+.stat-value {
+    font-weight: 800;
+    font-size: 1.4em;
+    line-height: 42px;
+}
+
+.top-left {
+    border-top-left-radius: 2px;
+}
+
+.bottom-left {
+    border-bottom-left-radius: 12.5px;
+}
+
+.top-right {
+    border-top-right-radius: 2px;
+}
+
+.bottom-right {
+    border-bottom-right-radius: 12.5px;
+}
