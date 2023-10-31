@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+#card-wrapper {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*= 1fr 1fr 1fr 1fr */
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-areas:
+        "nr name name name"
+        "bild bild bild bild"
+        "stats stats stats stats";
+    width: 200px;
+    height: 300px;
+    border-bottom-left-radius: 20px;
+}
+
+.number {
+    grid-area: nr;
+}
+.round {
+    background-color:pink;
+    border-radius: 100%;
+    width: 20px;
+    height:20px;
+}
+.title {
+    grid-area: name;
+}
+
+.image-container {
+    grid-area: bild;
+}
+
+.stat-box {
+    grid-area: stats;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 100%;
+}

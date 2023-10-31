@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+#grid-wrapper {
+    display: grid;
+    grid-template-columns: 100px 300px;
+    grid-template-rows: 50px 300px 60px;
+    grid-template-areas:
+        "hdr hdr"
+        "sidebar content"
+        "ftr ftr";
+    background-color: yellow;
+}
+
+header {
+    background-color: red;
+    grid-area: hdr;
+}
+
+nav {
+    background-color: violet;
+    grid-area: sidebar;
+}
+main {
+    background-color: aqua;
+    grid-area: content;
+}
+
+footer {
+    background-color: green;
+    grid-area: ftr;
+}

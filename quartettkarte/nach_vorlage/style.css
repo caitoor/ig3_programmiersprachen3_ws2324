@@ -17,6 +17,7 @@ body {
     width: 285px;
     background-color: rgb(245, 245, 235);
     margin: auto;
+    box-shadow: pink 0 0 3px 3px;
 }
 
 .card-top-wrapper {
