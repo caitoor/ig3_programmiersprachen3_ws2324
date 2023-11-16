@@ -1,9 +1,7 @@
-//whenb jquery i loaded:
 $(document).ready(function () {
     createCards();
 });
 
-//create cards
 function createCards() {
     const iconPath = "img/icons/";
 

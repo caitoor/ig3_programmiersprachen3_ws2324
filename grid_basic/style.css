@@ -24,6 +24,7 @@ nav {
     font-family: "Playpen Sans", cursive;
     grid-area: sidebar;
 }
+
 main {
     background-color: aqua;
     grid-area: content;
@@ -35,6 +36,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
     /*Desktop-Ansicht*/
     #grid-wrapper {
         grid-template-columns: 100px 300px;
