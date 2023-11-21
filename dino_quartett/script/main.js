@@ -8,7 +8,7 @@ function createCards() {
     dinosaurs.forEach(dino => {
         let card = document.createElement("div");
         card.className = "card-wrapper";
-        const imagePath = "img/" + dino.group_letter + dino.card_number + "_" + dino.name.replace(/\s/g, '') + ".png";
+        const imagePath = "img/" + dino.group_letter + dino.card_number + "_" + dino.name.replace(/\s/g, '') + ".jpg";
 
         card.innerHTML = `
         <div class="card-content">
