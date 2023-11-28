@@ -827,3 +827,5 @@ const dinosaurs = [
         "encephalization": 0.05
     }
 ];
+
+export default dinosaurs;
