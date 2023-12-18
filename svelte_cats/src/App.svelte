@@ -50,12 +50,10 @@
 </header>
 <main>
   <div class="cat-cage">
-
-  {#each selectedBreeds as breed}
-      <Cat url={breed.imageUrl} breed={breed.name}/>
-
-  {/each}
-</div>
+    {#each selectedBreeds as breed}
+      <Cat url={breed.imageUrl} breed={breed.name} />
+    {/each}
+  </div>
 </main>
 
 <style>
